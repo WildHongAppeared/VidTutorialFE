@@ -48,6 +48,7 @@ class App extends React.Component {
           <td className={'column header'}>ID</td>
           <td className={'column header'}>Title</td>
           <td className={'column header'}>Category</td>
+          <td className={'column header'}>Teacher</td>
           <td className={'column header'}>Preview Image</td>
         </tr>
     )]
@@ -57,6 +58,7 @@ class App extends React.Component {
           <td className='column'>{listValue.id}</td>
           <td className='column'>{listValue.title}</td>
           <td className='column'>{listValue.category}</td>
+          <td className='column'>{listValue.teacher}</td>
           <td className='column'><img src={logo} alt="logo" className='img'/></td>
         </tr>
       );
